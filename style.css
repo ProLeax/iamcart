@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sait {
+    background-color: white;
+}
+.friend__item {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+            /* header */
+.heder {
+
+}
+.heder__conteiner {
+    background-image:url(/IMG/фон1.png) ;
+    margin: 0 auto;
+    width: 1440px;
+    height: 680px;
+}
+
+
+.header__menu {
+    padding-top:  35px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu__logo {
+
+}
+.header__menu__items {
+    display: flex;
+    align-items: center;
+}
+.header__menu__item {
+    font-family: ;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+}
+.header__menu__item:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.header__info {
+    margin-top: 50px;
+}
+.header__title1 {
+font-size: 90px;
+color: #130E27;
+line-height: 82px;
+}
+.header__title2 {
+font-size: 90px;
+color:white;
+line-height: 82px;
+}
+.header__text {
+margin-top: 50px;
+color: white;
+line-height: 28px;
+font-size: 20px;
+max-width: 494px;
+}
+            /* header */
+
+
+            /* base */
+
+.base {
+    background-color: white;
+}
+.base__conteiner {
+    margin: 0 auto;
+    width: 1440px;
+    height: 535px;
+}
+.base__item {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.base__title{
+    display: flex;
+    margin-top: 100px;
+}
+.base__title1 {
+    font-size: 50px;
+    color:#C62314;
+}
+.base__title2 {
+    color: rgba(19, 14, 39, 1);
+    font-size: 50px;
+}
+.base__info__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 0 70px;
+}
+
+.base__info__item{
+    text-align: center;
+}
+.base__item__img{
+    max-width: 169px;
+    height: 162px;
+}
+.base__item__text {
+   color: rgba(22, 22, 22, 1);
+   max-width: 166px;
+   padding-top:37px ;
+   font-size: 20px;
+   line-height: 28px;
+}
+
+
+            /* base */
+
+            /* our_story */
+
+.our_story {
+
+}
+.our_story__conteiner {
+    margin: 0 auto;
+    width: 1440px;
+    height: 125px;
+    background-color: #130E27;
+}
+.our_story__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.our_story__text {
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+    max-width: 600px;
+    margin: auto 0;
+}
+.our_story__btn {
+    background-color: #C62314;
+    color: white;
+    padding: 19px 68px;
+    font-size: 22px;
+    border-radius:5px ;
+    text-decoration: none;
+
+}
+.our_story__btn:hover {
+    background-color: #c45d54;
+    border: 1px #C62314 solid;
+    padding: 18px 67px;
+}
+
+
+            /* our_story */
+
+            /* pricing */
+
+.pricing {
+
+}
+.pricing__conteiner {
+    margin: 0 auto;
+    width: 1440px;
+    height: 691px;
+    background-color:#EFEFEF;
+}
+
+
+.pricing__title {
+    color: #130E27;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.pricing__items {
+    display: flex;
+    justify-content: space-between;
+    margin:63px auto ;
+}
+.pricing__item {
+    text-align: center;
+    background-color: white;
+    width: 340px;
+    height: 460px;
+    border-radius: 5px;
+}
+
+.pricing__item__title {
+    font-size: 22px;
+    padding-top:35px ;
+}
+.pricing__item__price {
+    font-size: 50px;
+    color: #C62314;
+    padding: 40px 0;
+}
+.pricing__item__text {
+    font-size:20px ;
+    line-height: 28px;
+    max-width: 154px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+.pricing__spec{
+    max-width: 164px;
+}
+.pricing__item__btn {
+    padding: 12px 60px;
+    background-color: #161616;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}            
+.pricing__item__btn:hover {
+background-color: #C62314;
+}
+
+            /* pricing */
+
+                /* foot */
+
+.foot {
+}
+
+.foot__conteiner {
+    margin: 0 auto;
+    width: 1440px;
+    height: 190px;
+    background-color: #130E27;
+}
+.foot__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0 60px;
+}
+
+.foot__text {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.foot__text2 {
+    color: #C62314;
+    padding-left: 5px;
+}
+.foot__logo {
+
+}
+
+                /* foot */
